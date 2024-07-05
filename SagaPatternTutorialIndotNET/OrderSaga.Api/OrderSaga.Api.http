@@ -1,0 +1,9 @@
+@Api_HostAddress = https://localhost:7169/api;
+
+POST {{Api_HostAddress}}/order
+Content-Type: application/json
+{
+    "Id": 1,
+    "Product": "Laptop",
+    "Amount": 1500.00
+}
